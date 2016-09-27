@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- Latest compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="jumbotron text-center">
+  		<h1>My First Bootstrap Page</h1>
+  		<p>Resize this responsive page to see the effect!</p>
+	</div>
+  
+	<div class="container">
+ 		 <div class="row">
+   		 	<div class="col-md-4">
+     	 		<h3>Column 1</h3>
+      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    		</div>
+    		<div class="col-md-4">
+     	 		<h3>Column 2</h3>
+      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    		</div>
+    		<div class="col-md-offset-2">
+      			<h3>Column 3</h3>
+      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    		</div>
+    		<div class="col-md-4">
+      			<h3>Column 4</h3>
+      			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+      			<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+    		</div>
+  		</div><!--end of class row-->
+  		<br>
+  		<p>You can highlight words or <mark>text using the mark</mark> tags.</p>
+
+  		<blockquote>
+  			<p>this is a quote</p>
+  			<footer>Bucky</footer>
+  		</blockquote>
+
+  		<h4>things to do when u r bored</h4>
+  		<dl>
+  			<dt>Indoors</dt>
+  				<dd>take a nap</dd>
+  				<dd>watch netflix</dd>
+  			<dt>Outdoors</dt>
+  				<dd>go back inside</dd>
+  		</dl>
+
+  		<p>To set the users weight use <code>setUser Weight(374)</code> with an integer</p>
+
+  		<p>For multiline codes use the pre tags</p>
+  		<pre>
+  			for n in range(101):
+  				if(n%4 is 0):
+  				print(n)
+  		</pre>
+
+  		<p>this is supposed to be keyboard input <kbd>Ctrl+alt+del</kbd></p>
+
+  		<h4>build in color classes</h4>
+
+  		<p class="text-muted">Text muted</p>
+  		<p class="text-primary">Text primary</p>
+  		<p class="text-success">Text success</p>
+  		<p class="text-danger">Text danger</p>
+  		<p class="bg-muted">Background muted</p>
+  		<p class="bg-success">Background success</p>
+  		<p class="text-left">Text left</p>
+  		<p class="text-center">Text center</p>
+  		<p class="text-right">Text right</p>
+
+  		<h2>Simple table</h2>
+  		<table class="table">
+  			<thead>
+  				<tr>
+  					<th>Nmae</th>
+  					<th>Age</th>
+  					<th>Points</th>
+  				</tr>
+  				
+  			</thead>
+  			<tbody>
+  				<tr>
+  					<td>Bucky</td>
+  					<td>74</td>
+  					<td>8765</td>
+  				</tr>
+
+  				<tr>
+  					<td>mia</td>
+  					<td>7</td>
+  					<td>935</td>
+  				</tr>
+
+  				<tr>
+  					<td>chch</td>
+  					<td>51</td>
+  					<td>32</td>
+  				</tr>
+  				
+  			</tbody>
+  		</table>
+
+  		<table class="table-condensed">
+  			<thead>
+  				<tr>
+  					<th>Nmae</th>
+  					<th>Age</th>
+  					<th>Points</th>
+  				</tr>
+  				
+  			</thead>
+  			<tbody>
+  				<tr>
+  					<td>Bucky</td>
+  					<td>74</td>
+  					<td>8765</td>
+  				</tr>
+
+  				<tr>
+  					<td>mia</td>
+  					<td>7</td>
+  					<td>935</td>
+  				</tr>
+
+  				<tr>
+  					<td>chch</td>
+  					<td>51</td>
+  					<td>32</td>
+  				</tr>
+  				
+  			</tbody>
+  		</table>
+
+
+  		<table class="table-striped">
+  			<thead>
+  				<tr>
+  					<th>Nmae</th>
+  					<th>Age</th>
+  					<th>Points</th>
+  				</tr>
+  				
+  			</thead>
+  			<tbody>
+  				<tr>
+  					<td>Bucky</td>
+  					<td>74</td>
+  					<td>8765</td>
+  				</tr>
+
+  				<tr>
+  					<td>mia</td>
+  					<td>7</td>
+  					<td>935</td>
+  				</tr>
+
+  				<tr>
+  					<td>chch</td>
+  					<td>51</td>
+  					<td>32</td>
+  				</tr>
+  				
+  			</tbody>
+  		</table>
+
+  		<table class="table-hover">
+  		<h1>table hover</h1>
+  			<thead>
+  				<tr>
+  					<th>Nmae</th>
+  					<th>Age</th>
+  					<th>Points</th>
+  				</tr>
+  				
+  			</thead>
+  			<tbody>
+  				<tr>
+  					<td>Bucky</td>
+  					<td>74</td>
+  					<td>8765</td>
+  				</tr>
+
+  				<tr>
+  					<td>mia</td>
+  					<td>7</td>
+  					<td>935</td>
+  				</tr>
+
+  				<tr>
+  					<td>chch</td>
+  					<td>51</td>
+  					<td>32</td>
+  				</tr>
+  				
+  			</tbody>
+  		</table>
+
+  		<button>button</button>
+  		<button class="btn">button btn</button>
+  		<button class="btn-default">button default</button>
+  		<button class="btn-primary">button primary</button>
+  		<button class="btn-success">button success</button>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div><!--end of class container-->
+
+</body>
+</html>
+
+
+
+
+
+
+
+
